@@ -37,7 +37,7 @@
 		"website/assets/envmaps/*"
 	],
 	"scripts": {
-		"build": "npm run build_engine_dev && npm run build_website_dev && cp website/index.html build/website_dev/",
+		"build": "npm run build_engine_dev && npm run build_website_dev && copy website\\index.html build\\website_dev\\",
 		"start": "npm run build_website_dev && http-server",
 		"test": "mocha test",
 		"lint": "eslint source",
